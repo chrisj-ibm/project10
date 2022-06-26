@@ -1,0 +1,33 @@
+{
+  "metadata": {
+    "asset_type": "connection",
+    "name": "Databases for MongoDB",
+    "origin_country": "us",
+    "rov": {
+      "mode": 0
+    },
+    "asset_category": "USER",
+    "created_at": "2022-01-19T00:24:37Z",
+    "created": 1642551877678,
+    "asset_id": "connection.DatabasesforMongoDB",
+    "asset_attributes": [
+      "connection"
+    ]
+  },
+  "entity": {
+    "connection": {
+      "datasource_type": "8e65204d-6156-49e7-96e5-d635b2aa05f6",
+      "context": "source",
+      "properties": {
+        "database": "test",
+        "port": "30677",
+        "host": "19b1bcf5-af47-4dc6-88f4-8798624cffb3-0.4b2136ddd30a46e9b7bdb2b2db7f8cd0.databases.appdomain.cloud",
+        "ssl": "true"
+      },
+      "flags": [
+        "personal_credentials"
+      ]
+    }
+  },
+  "attachments": []
+}

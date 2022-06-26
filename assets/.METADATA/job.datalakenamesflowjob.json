@@ -1,0 +1,41 @@
+{
+  "metadata": {
+    "name": "datalake_names flow job",
+    "description": "",
+    "asset_type": "job",
+    "origin_country": "us",
+    "asset_category": "USER",
+    "created_at": "2022-01-19T03:31:22Z",
+    "created": 1642563082770,
+    "asset_id": "job.datalakenamesflowjob",
+    "asset_attributes": [
+      "job"
+    ]
+  },
+  "entity": {
+    "job": {
+      "asset_ref_type": "data_flow",
+      "configuration": {
+        "env_id": "spark24r",
+        "env_name": "Default Spark 2.4 & R 3.6",
+        "env_type": "default_spark",
+        "env_variables": []
+      },
+      "last_run_initiator": "None",
+      "last_run_time": "",
+      "last_run_status": "None",
+      "last_run_status_timestamp": 0,
+      "future_scheduled_runs": [],
+      "enable_notifications": true,
+      "notification_types": {
+        "success": false,
+        "failure": false,
+        "warning": false
+      },
+      "retention_policy": {},
+      "project_name": "anandi-GH",
+      "asset_ref": "data_flow.datalakenamescsvflow"
+    }
+  },
+  "attachments": []
+}

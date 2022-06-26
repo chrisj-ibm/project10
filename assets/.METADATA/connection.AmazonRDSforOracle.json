@@ -1,0 +1,33 @@
+{
+  "metadata": {
+    "asset_type": "connection",
+    "name": "Amazon RDS for Oracle",
+    "origin_country": "us",
+    "rov": {
+      "mode": 0
+    },
+    "asset_category": "USER",
+    "created_at": "2022-01-19T00:22:30Z",
+    "created": 1642551750367,
+    "asset_id": "connection.AmazonRDSforOracle",
+    "asset_attributes": [
+      "connection"
+    ]
+  },
+  "entity": {
+    "connection": {
+      "datasource_type": "8b8fcd6d-8f95-49c7-8195-c72c95c9a84b",
+      "context": "source,target",
+      "properties": {
+        "port": "1521",
+        "host": "aws-oracle1.crqhlt37ctto.us-east-1.rds.amazonaws.com",
+        "ssl": "false",
+        "sid": "orcl"
+      },
+      "flags": [
+        "personal_credentials"
+      ]
+    }
+  },
+  "attachments": []
+}

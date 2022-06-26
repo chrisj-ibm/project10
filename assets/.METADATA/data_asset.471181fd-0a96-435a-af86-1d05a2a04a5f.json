@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "name": "テニス.csv",
+    "asset_type": "data_asset",
+    "origin_country": "us",
+    "asset_category": "USER",
+    "created_at": "2022-01-19T00:16:55Z",
+    "created": 1642551415202,
+    "asset_id": "data_asset.471181fd-0a96-435a-af86-1d05a2a04a5f",
+    "asset_attributes": [
+      "data_asset"
+    ]
+  },
+  "entity": {
+    "data_asset": {
+      "dataset": false,
+      "mime_type": "text/csv"
+    }
+  },
+  "attachments": [
+    {
+      "asset_type": "data_asset",
+      "name": "テニス.csv",
+      "mime": "text/csv",
+      "object_key": "data_asset/テニス.csv",
+      "object_key_is_read_only": true,
+      "created_at": "2022-01-19T00:16:59Z",
+      "id": "83fb8fe3-9e47-4cf2-94b9-a05d17a9ff31",
+      "is_managed": false,
+      "is_referenced": true,
+      "is_remote": false
+    }
+  ]
+}

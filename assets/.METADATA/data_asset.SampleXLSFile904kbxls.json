@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "name": "SampleXLSFile_904kb.xls",
+    "asset_type": "data_asset",
+    "origin_country": "us",
+    "asset_category": "USER",
+    "created_at": "2022-01-19T00:17:02Z",
+    "created": 1642551422072,
+    "asset_id": "data_asset.SampleXLSFile904kbxls",
+    "asset_attributes": [
+      "data_asset"
+    ]
+  },
+  "entity": {
+    "data_asset": {
+      "dataset": false,
+      "mime_type": "application/x-msexcel"
+    }
+  },
+  "attachments": [
+    {
+      "asset_type": "data_asset",
+      "name": "SampleXLSFile_904kb.xls",
+      "mime": "application/x-msexcel",
+      "object_key": "data_asset/SampleXLSFile_904kb.xls",
+      "object_key_is_read_only": true,
+      "created_at": "2022-01-19T00:17:03Z",
+      "id": "c2ae53ad-910c-4398-9487-dedd6b8496a1",
+      "is_managed": false,
+      "is_referenced": true,
+      "is_remote": false
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "metadata": {
+    "name": "test pmml model 3.0",
+    "tags": [],
+    "asset_type": "wml_model",
+    "origin_country": "us",
+    "asset_category": "USER",
+    "created_at": "2022-01-19T00:31:16Z",
+    "created": 1642552276847,
+    "asset_id": "wml_model.testpmmlmodel30",
+    "asset_attributes": [
+      "wml_model"
+    ]
+  },
+  "entity": {
+    "wml_model": {
+      "ml_version": "4.0.2",
+      "tags": [],
+      "software_spec": {
+        "base_id": "5c1b0ca2-4977-5c2e-9439-ffd44ea8ffe9"
+      },
+      "type": "pmml_4.3",
+      "schemas": {
+        "input": [
+          {
+            "id": "in_1",
+            "fields": [
+              {
+                "name": "DEPTNAME",
+                "type": "integer"
+              },
+              {
+                "name": "QUANTITY",
+                "type": "string"
+              },
+              {
+                "name": "MGRNO",
+                "type": "integer"
+              },
+              {
+                "name": "AGE",
+                "type": "integer"
+              }
+            ]
+          }
+        ],
+        "output": [
+          {
+            "id": "out_1",
+            "fields": [
+              {
+                "name": "STATE",
+                "type": "integer"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "attachments": [
+    {
+      "name": "native",
+      "asset_type": "wml_model",
+      "user_data": {
+        "content_format": "native"
+      },
+      "created_at": "2022-01-19T00:31:16Z",
+      "id": "b99d24e0-1e87-445d-812f-1bc76a04d560",
+      "is_managed": true,
+      "is_referenced": false,
+      "is_remote": false,
+      "transfer_complete": true
+    }
+  ]
+}

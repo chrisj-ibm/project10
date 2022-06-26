@@ -1,0 +1,69 @@
+22/01/19 03:32:57 WARN NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+22/01/19 03:32:58 INFO SecurityManager - Changing view acls to: 1000690000
+22/01/19 03:32:58 INFO SecurityManager - Changing modify acls to: 1000690000
+22/01/19 03:32:58 INFO SecurityManager - Changing view acls groups to: 
+22/01/19 03:32:58 INFO SecurityManager - Changing modify acls groups to: 
+22/01/19 03:32:58 INFO SecurityManager - SecurityManager: authentication enabled; ui acls disabled; users  with view permissions: Set(1000690000); groups with view permissions: Set(); users  with modify permissions: Set(1000690000); groups with modify permissions: Set()
+2022-01-19 03:32:58.757+0000 INFO: Job run ID: db5bd828-a9be-479f-93b4-d1742c3e0c97
+2022-01-19 03:32:58.774+0000 INFO: Loading libraries.
+2022-01-19 03:32:58.797+0000 INFO: Running jsonlite v 1.7.2
+2022-01-19 03:32:58.798+0000 INFO: Running dplyr v 0.8.2
+2022-01-19 03:33:00.931+0000 INFO: Runtime environment: Spark
+2022-01-19 03:33:00.931+0000 INFO: Initializing parameters for Data Refinery flow.
+Spark package found in SPARK_HOME: /opt/ibm/spark
+22/01/19 03:33:01 INFO SparkContext - Running Spark version 3.0.3
+22/01/19 03:33:01 INFO ResourceUtils - ==============================================================
+22/01/19 03:33:01 INFO ResourceUtils - Resources for spark.driver:
+
+22/01/19 03:33:01 INFO ResourceUtils - ==============================================================
+22/01/19 03:33:01 INFO SparkContext - Submitted application: SparkR
+22/01/19 03:33:02 INFO SecurityManager - Changing view acls to: 1000690000
+22/01/19 03:33:02 INFO SecurityManager - Changing modify acls to: 1000690000
+22/01/19 03:33:02 INFO SecurityManager - Changing view acls groups to: 
+22/01/19 03:33:02 INFO SecurityManager - Changing modify acls groups to: 
+22/01/19 03:33:02 INFO SecurityManager - SecurityManager: authentication enabled; ui acls disabled; users  with view permissions: Set(1000690000); groups with view permissions: Set(); users  with modify permissions: Set(1000690000); groups with modify permissions: Set()
+22/01/19 03:33:02 INFO Utils - Successfully started service 'sparkDriver' on port 41865.
+22/01/19 03:33:02 INFO SparkEnv - Registering MapOutputTracker
+22/01/19 03:33:02 INFO SparkEnv - Registering BlockManagerMaster
+22/01/19 03:33:02 INFO BlockManagerMasterEndpoint - Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+22/01/19 03:33:02 INFO BlockManagerMasterEndpoint - BlockManagerMasterEndpoint up
+22/01/19 03:33:02 INFO SparkEnv - Registering BlockManagerMasterHeartbeat
+22/01/19 03:33:02 INFO DiskBlockManager - Created local directory at /tmp/spark/scratch/blockmgr-1e3a57f5-5aaf-48d7-adb9-c4410c7d3906
+22/01/19 03:33:02 INFO MemoryStore - MemoryStore started with capacity 2.2 GiB
+22/01/19 03:33:02 INFO SparkEnv - Registering OutputCommitCoordinator
+22/01/19 03:33:03 INFO Utils - Successfully started service 'SparkUI' on port 4040.
+22/01/19 03:33:03 INFO SparkUI - Bound SparkUI to 0.0.0.0, and started at http://spark-master-headless-db5bd828-a9be-479f-93b4-d1742c3e0c97:4040
+22/01/19 03:33:03 INFO SparkContext - Added file file:/opt/ibm/third-party/libs/exec/Runner3.R at spark://spark-master-headless-db5bd828-a9be-479f-93b4-d1742c3e0c97:41865/files/Runner3.R with timestamp 1642563181875
+22/01/19 03:33:03 INFO Utils - Copying /opt/ibm/third-party/libs/exec/Runner3.R to /tmp/spark/scratch/spark-c88e36f3-fc3a-46a5-a044-5aa48e63b771/userFiles-9e233802-8353-4c96-a010-95c1d7fc2eb6/Runner3.R
+22/01/19 03:33:04 INFO StandaloneAppClient$ClientEndpoint - Connecting to master spark://10.254.36.130:7077...
+22/01/19 03:33:04 INFO TransportClientFactory - Successfully created connection to /10.254.36.130:7077 after 212 ms (196 ms spent in bootstraps)
+22/01/19 03:33:04 INFO StandaloneSchedulerBackend - Connected to Spark cluster with app ID app-20220119033304-0000
+22/01/19 03:33:04 INFO Utils - Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 43595.
+22/01/19 03:33:04 INFO NettyBlockTransferService - Server created on spark-master-headless-db5bd828-a9be-479f-93b4-d1742c3e0c97:43595
+22/01/19 03:33:04 INFO BlockManager - Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+22/01/19 03:33:04 INFO BlockManagerMaster - Registering BlockManager BlockManagerId(driver, spark-master-headless-db5bd828-a9be-479f-93b4-d1742c3e0c97, 43595, None)
+22/01/19 03:33:04 INFO BlockManagerMasterEndpoint - Registering block manager spark-master-headless-db5bd828-a9be-479f-93b4-d1742c3e0c97:43595 with 2.2 GiB RAM, BlockManagerId(driver, spark-master-headless-db5bd828-a9be-479f-93b4-d1742c3e0c97, 43595, None)
+22/01/19 03:33:04 INFO BlockManagerMaster - Registered BlockManager BlockManagerId(driver, spark-master-headless-db5bd828-a9be-479f-93b4-d1742c3e0c97, 43595, None)
+22/01/19 03:33:04 INFO BlockManager - Initialized BlockManager: BlockManagerId(driver, spark-master-headless-db5bd828-a9be-479f-93b4-d1742c3e0c97, 43595, None)
+22/01/19 03:33:04 INFO StandaloneAppClient$ClientEndpoint - Executor added: app-20220119033304-0000/0 on worker-20220119033252-10.254.12.72-34777 (10.254.12.72:34777) with 1 core(s)
+22/01/19 03:33:04 INFO StandaloneSchedulerBackend - Granted executor ID app-20220119033304-0000/0 on hostPort 10.254.12.72:34777 with 1 core(s), 4.0 GiB RAM
+22/01/19 03:33:04 INFO StandaloneAppClient$ClientEndpoint - Executor added: app-20220119033304-0000/1 on worker-20220119033252-10.254.16.167-37061 (10.254.16.167:37061) with 1 core(s)
+22/01/19 03:33:04 INFO StandaloneSchedulerBackend - Granted executor ID app-20220119033304-0000/1 on hostPort 10.254.16.167:37061 with 1 core(s), 4.0 GiB RAM
+22/01/19 03:33:04 INFO StandaloneAppClient$ClientEndpoint - Executor updated: app-20220119033304-0000/0 is now RUNNING
+22/01/19 03:33:04 INFO StandaloneAppClient$ClientEndpoint - Executor updated: app-20220119033304-0000/1 is now RUNNING
+22/01/19 03:33:04 INFO SingleEventLogFileWriter - Logging events to file:/home/spark/spark-events/app-20220119033304-0000.inprogress
+22/01/19 03:33:05 INFO StandaloneSchedulerBackend - SchedulerBackend is ready for scheduling beginning after reached minRegisteredResourcesRatio: 0.0
+22/01/19 03:33:05 INFO HiveConf - Found configuration file null
+22/01/19 03:33:05 INFO SharedState - Setting hive.metastore.warehouse.dir ('null') to the value of spark.sql.warehouse.dir ('file:/home/spark/shared/spark-warehouse').
+22/01/19 03:33:05 INFO SharedState - Warehouse path is 'file:/home/spark/shared/spark-warehouse'.
+22/01/19 03:33:06 INFO SparkUI - Stopped Spark web UI at http://spark-master-headless-db5bd828-a9be-479f-93b4-d1742c3e0c97:4040
+22/01/19 03:33:06 INFO StandaloneSchedulerBackend - Shutting down all executors
+22/01/19 03:33:06 INFO CoarseGrainedSchedulerBackend$DriverEndpoint - Asking each executor to shut down
+22/01/19 03:33:07 INFO MapOutputTrackerMasterEndpoint - MapOutputTrackerMasterEndpoint stopped!
+22/01/19 03:33:07 INFO MemoryStore - MemoryStore cleared
+22/01/19 03:33:07 INFO BlockManager - BlockManager stopped
+22/01/19 03:33:07 INFO BlockManagerMaster - BlockManagerMaster stopped
+22/01/19 03:33:07 INFO OutputCommitCoordinator$OutputCommitCoordinatorEndpoint - OutputCommitCoordinator stopped!
+22/01/19 03:33:07 INFO SparkContext - Successfully stopped SparkContext
+2022-01-19 03:33:07.358+0000 INFO: Set additional spark config properties.
+2022-01-19 03:33:07.359+0000 INFO: Spark master: spark://spark-master-headless-db5bd828-a9be-479f-93b4-d1742c3e0c97:7077

@@ -1,0 +1,96 @@
+{
+  "metadata": {
+    "name": "pmml-model-DecisionTree Model 24",
+    "tags": [],
+    "asset_type": "wml_model",
+    "origin_country": "us",
+    "asset_category": "USER",
+    "created_at": "2022-01-19T00:32:52Z",
+    "created": 1642552372879,
+    "asset_id": "wml_model.pmmlmodelDecisionTreeModel24",
+    "asset_attributes": [
+      "wml_model"
+    ]
+  },
+  "entity": {
+    "wml_model": {
+      "ml_version": "4.0.2",
+      "tags": [],
+      "software_spec": {
+        "base_id": "390d21f8-e58b-4fac-9c55-d7ceda621326"
+      },
+      "type": "pmml_4.1",
+      "schemas": {
+        "input": [
+          {
+            "id": "in_1",
+            "fields": [
+              {
+                "name": "Age",
+                "type": "integer"
+              },
+              {
+                "name": "Employment",
+                "type": "string"
+              },
+              {
+                "name": "Education",
+                "type": "string"
+              },
+              {
+                "name": "Marital",
+                "type": "string"
+              },
+              {
+                "name": "Occupation",
+                "type": "string"
+              },
+              {
+                "name": "Income",
+                "type": "double"
+              },
+              {
+                "name": "Gender",
+                "type": "string"
+              },
+              {
+                "name": "Deductions",
+                "type": "double"
+              },
+              {
+                "name": "Hours",
+                "type": "integer"
+              }
+            ]
+          }
+        ],
+        "output": [
+          {
+            "id": "out_1",
+            "fields": [
+              {
+                "name": "TARGET_Adjusted",
+                "type": "string"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "attachments": [
+    {
+      "name": "native",
+      "asset_type": "wml_model",
+      "user_data": {
+        "content_format": "native"
+      },
+      "created_at": "2022-01-19T00:32:52Z",
+      "id": "69fc7f21-eecf-4e58-9885-6b6fc6152e3c",
+      "is_managed": true,
+      "is_referenced": false,
+      "is_remote": false,
+      "transfer_complete": true
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "metadata": {
+    "name": "datalake_names_csv_shaped",
+    "asset_type": "data_asset",
+    "origin_country": "us",
+    "asset_category": "USER",
+    "owner_id": "1000331001",
+    "created_at": "2022-01-19T03:32:17Z",
+    "created": 1642563137582,
+    "asset_id": "data_asset.datalakenamescsvshaped",
+    "asset_attributes": [
+      "data_asset"
+    ]
+  },
+  "entity": {
+    "data_asset": {
+      "mime_type": "text/csv",
+      "dataset": true,
+      "properties": [
+        {
+          "name": "file_format",
+          "value": "csv"
+        },
+        {
+          "name": "first_line_header",
+          "value": "true"
+        }
+      ]
+    }
+  },
+  "attachments": [
+    {
+      "asset_type": "data_asset",
+      "name": "datalake_names_csv_shaped",
+      "object_key": "data_asset/datalake_names_csv_shaped-P6IY",
+      "mime": "text/csv",
+      "object_key_is_read_only": false,
+      "created_at": "2022-01-19T03:32:17Z",
+      "id": "bf202239-11b5-4664-a753-5230c0a72413",
+      "is_managed": false,
+      "is_referenced": true,
+      "is_remote": false
+    }
+  ]
+}
