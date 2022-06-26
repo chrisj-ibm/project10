@@ -11,13 +11,13 @@ print ("The script is called with %i arguments" % (arguments))
 
 import time
 print ("Update 1 of 5...");
-time.sleep(5)
+time.sleep(15)
 print ("Update 2 of 5...");
-time.sleep(5)
+time.sleep(15)
 print ("Update 3 of 5...");
-time.sleep(5)
+time.sleep(15)
 print ("Update 4 of 5...");
-time.sleep(5)
+time.sleep(15)
 print ("Update 5 of 5...");
 
 print ("Done, thanks for waiting!");
